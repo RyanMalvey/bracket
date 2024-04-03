@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracket Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bracket Maker</h1>
+    <div class="input-area">
+        <label for="numItems">Number of Items</label>
+        <input type="number" id="numItems" min="4" max="32" value="4">
+        <button id="generateBtn">Generate</button>
+    </div>
+    <div>
+        <label for="editingMode">Editing:</label>
+        <input type="checkbox" id="editingMode" name="editingMode" checked>
+    </div>
+    <div class="container">
+        <canvas id="canvas"></canvas>
+        <div id="bracketContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
